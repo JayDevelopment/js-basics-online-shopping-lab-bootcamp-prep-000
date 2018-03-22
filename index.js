@@ -49,9 +49,9 @@ function total() {
   return total
 }
 
-function removeFromCart(itemi) {
+function removeFromCart(itemRem) {
   for (var i = 0; i <cart.length; i++) {
-    if (cart[i].hasOwnProperty(itemi)) {
+    if (cart[i].hasOwnProperty(itemRem)) {
       cart.splice(i, 1)
       return cart
     } 
